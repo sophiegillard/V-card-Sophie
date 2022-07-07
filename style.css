@@ -89,6 +89,15 @@ body{
    box-shadow: 0 0 2em black;
    object-fit: cover;
  }
+ #line{
+   height: 20px;
+   width: 250px;
+   background-color: #FF01A1;
+   align-self: center;
+   position: relative;
+   left: 650px;
+   bottom: 530px;
+ }
  #name {
     grid-row-start: 2;
     grid-column-start: 7;
@@ -101,6 +110,7 @@ body{
     height: 300px;
    
  }
+
  #nomFam{
    text-indent: 30px;
    position: relative;
