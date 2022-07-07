@@ -1,0 +1,206 @@
+body{
+   font-family: Nunito, sans-serif;
+   height: 60em;
+   justify-content: center;
+   margin: 50px;
+}
+/*div {
+   border: solid black 2px;
+}*/
+.grid {
+    display: grid; 
+ 
+    grid-template-rows: 0.3fr 0fr 0fr 0.2fr 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr 0.3fr;
+    grid-template-columns: 0fr 0.2fr 0fr 0fr 0.1fr 0.05fr 0.2fr 0fr 0.2fr 0fr 0.2fr;
+    
+    gap: 0px;
+    height: 100%;
+    border: solid black 2px;
+ }
+
+ /*#bkGround{
+    background-color: #aad5c9; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 12;
+    grid-column-end: 4;
+    justify-content: center;
+
+    display: grid;
+    position: relative;
+ }
+ #bkGround #logo{
+   display: block;
+   margin:  auto;
+   margin:30% 30% 30% 0;
+   justify-content: center;
+ }
+
+/*#photo{
+   box-shadow: 0 0 2em black;
+   width: 100%;
+   height: 81%;
+   top: 100px;
+   left: 300px;   
+   display: grid;
+   position: absolute;
+   object-fit: fill;
+   background-image: url('/Users/sophiegillard11/Documents/Becode/V-card/Photo Sophie.jpeg');
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+ 
+#photo img{
+   border: solid red 5px;
+  
+}
+ /*#photo{
+    grid-row-start: 2;
+    grid-column-start: 4;
+ 
+    grid-row-end: 11;
+    grid-column-end: 6;
+    background-image:url("/Users/sophiegillard11/Documents/Becode/V-card/Photo Sophie.jpeg");
+    box-shadow: 0 0 2em black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+ }*/
+/* CONFIG éLéMENTS DE GAUCHE */
+ #bkGround{
+   background-color: #5788DE; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 12;
+   grid-column-end: 4;
+   display:flex;
+   align-items: center;
+ }
+ #photo{
+   position:relative;
+   left: 20%;
+ }
+
+ #photo img{
+   height: 900px;
+   width: auto;
+   box-shadow: 0 0 2em black;
+   object-fit: cover;
+ }
+ #name {
+    grid-row-start: 2;
+    grid-column-start: 7;
+ 
+    grid-row-end: 3;
+    grid-column-end: 10;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    display: flex;
+    height: 300px;
+   
+ }
+ #nomFam{
+   text-indent: 30px;
+   position: relative;
+   color: #5788DE;
+   margin-left: 30%;
+  
+ }
+ #fonction {
+    grid-row-start: 3;
+    grid-column-start: 7;
+ 
+    grid-row-end: 4;
+    grid-column-end: 9; 
+
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ #text {
+    grid-row-start: 5;
+    grid-column-start: 7;
+ 
+    grid-row-end: 7;
+    grid-column-end: 12;
+
+    font-size: 35px;
+    font-weight:600;
+    font-style: italic;
+    align-self: center;
+
+    width: 1200px;
+ }
+
+ h3{
+   font-size: 30px;
+   font-weight: bold;
+ }
+
+ a, address{
+   font-size: 30px;
+   line-height: 0.5;
+   text-decoration: none;
+   color:black;
+ }
+ #address {
+    grid-row-start: 8;
+    grid-column-start: 7;
+ 
+    grid-row-end: 9;
+    grid-column-end: 8;
+
+    width: 400px;
+ }
+
+ #phone {
+    grid-row-start: 8;
+    grid-column-start: 9;
+ 
+    grid-row-end: 9;
+    grid-column-end: 10;
+
+    width: 400px;
+ }
+
+ #email {
+    grid-row-start: 8;
+    grid-column-start: 11;
+ 
+    grid-row-end: 9;
+    grid-column-end: 12;
+
+    width: 400px;
+ }
+
+ #resume {
+    grid-row-start: 10;
+    grid-column-start: 8;
+ 
+    grid-row-end: 11;
+    grid-column-end: 11; 
+    
+    border: solid #5788DE 4px;
+    background-color:#5788DE ;
+    border-radius: 100px;
+    width: 300px;
+   height: 100px;
+
+   display: flex;
+   align-self: center;
+   align-content: center;
+   justify-content: center;
+
+
+ }
+
+ #resume a{
+   align-self: center;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 5px;
+   text-decoration: none;
+ }
